@@ -45,3 +45,17 @@ font-size: 20px;
     height: 200px;
     padding: 30px; 
 }
+
+body {
+    position: relative;
+    margin-bottom: 100px; /* Ajuste conforme necessário para evitar sobreposição com o footer */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1; /* Adicione uma cor de fundo, se desejar */
+    text-align: center;
+    padding: 10px;
+}
